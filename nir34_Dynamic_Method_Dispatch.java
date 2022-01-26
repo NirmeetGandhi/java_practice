@@ -34,8 +34,9 @@ public class nir34_Dynamic_Method_Dispatch {
 
         obj.on();
         obj.greet();
+//        obj.welcome(); --> not allowed
 //        obj.welcome(); ---> Not valid we can use all the functions of super class only means phone in this case but
-        // if it overrides like in this case on is also in the phone as well as in the smartphone class ,so it will
+        // if it overrides like in this case , here on is also in the phone as well as in the smartphone class ,so it will
         // run the on of sub class .
 
     }

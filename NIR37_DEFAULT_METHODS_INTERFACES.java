@@ -13,7 +13,7 @@ interface wifi{
         System.out.println("Good Morning!!");
     }
     private void sayHi(){
-
+        System.out.println("Good morning");
     }
     void setNetwork(String network);
     default void  getNetwork(){
@@ -25,6 +25,13 @@ interface Gps{
 //    String location = null;
     void setGps(String location);
     void getGps();
+    private void sayhello(){
+        System.out.println("Hello");
+    }
+    default void hi(){
+        sayhello();
+        System.out.println("Jio, Airtel,VI");
+    }
 }
 interface media{
     void playMusic();
@@ -83,6 +90,7 @@ public class NIR37_DEFAULT_METHODS_INTERFACES {
         mySmartPhone n = new mySmartPhone();
         n.setNetwork("JIO");
         n.getNetwork();
+        n.hi();
 
 
     }

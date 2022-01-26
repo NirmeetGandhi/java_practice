@@ -39,7 +39,7 @@ class aoneCycle implements Bicycle,Bicycle1{
 }
 public class nir36_Interfaces {
     public static void main(String[] args) {
-//   hum bohot sare interfaces ko implement karke ek class bana sakte hai aur usi ke sath sath ek class extebd bhi
+//   hum bohot sare interfaces ko implement karke ek class bana sakte hai aur usi ke sath sath ek class extend bhi
 //   kar sakte hai like : class aoneCycle extends Cycle implements Bicycle
 // par abstract class me sirf ek parent aur child hota hai
         aoneCycle Nir = new aoneCycle();

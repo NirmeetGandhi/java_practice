@@ -5,7 +5,7 @@ abstract class parent{
         System.out.println("I ma the constructor of parent class");
     }
     int parent(int i){
-        System.out.println("mi nombres Nirmeet");
+        System.out.println("Hallo ich bin Nirmeet");
         return i;
     }
     public void sayHello(){
@@ -39,8 +39,8 @@ class child1 extends child{
     }
 }
  class child2 extends parent{
+     @Override
     public void greet(){
-
         System.out.println("안녕하십니까");
     }
 }
