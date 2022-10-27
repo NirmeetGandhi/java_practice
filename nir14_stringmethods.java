@@ -106,8 +106,8 @@ public class nir14_stringmethods {
 //
 
 //              if you want to use double quates to print
-                System.out.println("This is ' double quate");
-                System.out.println("This is \n double quate"); // insters new line after /n
+                System.out.println("This is ' double quote");
+                System.out.println("This is \n double quote"); // inserts new line after \n
                 System.out.println("this is \t tab"); // inserts tab after \t
 
     }

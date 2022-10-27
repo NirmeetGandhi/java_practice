@@ -50,7 +50,7 @@ public class nir05 {
 //        System.out.println(srt);
 
 //      To read a complete line
-//        String striiing = s2 triiing);
+//        String striiing = s2.triiing();
 
 
     }

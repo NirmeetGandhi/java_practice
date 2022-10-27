@@ -13,9 +13,9 @@ class Base{
         this.x = x;
     }
 
-    public void Base(){
-        System.out.println("I am the constructor");
-    }
+        public void Base(){
+            System.out.println("I am the constructor");
+        }
 }
 class Derived extends Base{ // in this case the Derived class is derived from the Base class , so The Base class
 //        is the father of Derived class and the Derived class is the son of Base class.
@@ -48,5 +48,8 @@ public class nir31_inharitance {
         Derived b = new Derived();
         b.setX(4);
         System.out.println(b.getX());
+        Base b1 = new Derived();
+//        b1.setY(3);
+        b1.Base();
     }
 }
